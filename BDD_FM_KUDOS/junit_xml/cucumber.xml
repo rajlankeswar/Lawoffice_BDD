@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="232.972264">
+    <testcase classname="KUDOS Kudos_Page_All_Scenarios Feature" name="KUDOS Create Post Scenario" time="232.972264">
+        <failure message="org.openqa.selenium.WebDriverException: chrome not reachable&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-TDE7QJ7S', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SAIBAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e1fe12c4492f9eeb6fbebbc7672216bf&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#13;&#10;&#9;at step_definitions.Base_Class.Take_Screenshot(Base_Class.java:22)&#13;&#10;&#9;at step_definitions.Kudos_Page_Step_Def.Creaetd_post_will_be_viewed(Kudos_Page_Step_Def.java:71)&#13;&#10;&#9;at ✽.Then create a new post(Kudos_Page.feature:24)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Login...........................................passed
+Then user enters "Arjun" and "Arjun123".....................................passed
+Then user clicks on login button............................................passed
+Then validate user is on Create post page...................................passed
+Then create a new post......................................................failed
+Then logout from the application............................................skipped
+Then close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TDE7QJ7S', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SAIBAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e1fe12c4492f9eeb6fbebbc7672216bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at step_definitions.Base_Class.Take_Screenshot(Base_Class.java:22)
+	at step_definitions.Kudos_Page_Step_Def.Creaetd_post_will_be_viewed(Kudos_Page_Step_Def.java:71)
+	at ✽.Then create a new post(Kudos_Page.feature:24)
+]]></failure>
+    </testcase>
+</testsuite>
