@@ -28,6 +28,8 @@ screenshots/
 test-output/
 target/
 json_output/
+.metadata/
+
 ###################
 # Web publish log #
 ###################
