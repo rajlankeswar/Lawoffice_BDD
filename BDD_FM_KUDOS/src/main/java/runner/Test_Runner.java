@@ -16,6 +16,8 @@ import cucumber.api.CucumberOptions;
 		
 		// Examples: 	tags = {"@SmokeTest" , "@RegressionTest", "@End2End"}
 		
+		// GIT Explanation for training
+		
 		)
 
 
